@@ -12,7 +12,7 @@
 # Find the maximum total from top to bottom in triangle.txt, 
 # a 15K text file containing a triangle with one-hundred rows.
 
-file_path = '../../../data/project-euler/p067_triangle.txt'
+file_path = 'p067_triangle.txt'
 with open(file_path) as file:
     #Treat the first line as a special case, no predecessors
     prev_row = list(map(int, str.split(file.readline())))

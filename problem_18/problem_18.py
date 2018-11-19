@@ -14,7 +14,7 @@
 # and stored it under 'data/project-euler/p018_triangle.txt'
 #Code is identical to that of problem 67 as it is the exact same problem.
 
-file_path = '../../../data/project-euler/p018_triangle.txt'
+file_path = 'p018_triangle.txt'
 with open(file_path) as file:
     #Treat the first line as a special case, no predecessors
     prev_row = list(map(int, str.split(file.readline())))
